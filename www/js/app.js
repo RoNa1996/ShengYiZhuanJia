@@ -37,6 +37,11 @@ angular.module('starter', ['ionic', 'starter.controllers','starter.services'])
       templateUrl: 'view/welcome/welcome.html',
     })
 
+    .state('login', {
+      url: '/login',
+      templateUrl: 'view/login/login.html',
+    })
+
     .state('forgotpassword', {
       url: '/forgotpassword',
       templateUrl: 'view/forgotpassword/forgotpassword.html',
