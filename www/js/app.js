@@ -37,7 +37,13 @@ angular.module('starter', ['ionic', 'starter.controllers','starter.services'])
       templateUrl: 'view/welcome/welcome.html',
     })
 
-  .state('app.search', {
+    .state('main', {
+      url: '/',
+      controller: 'MainCtel'
+    })
+
+
+    .state('app.search', {
     url: '/search',
     views: {
       'menuContent': {
