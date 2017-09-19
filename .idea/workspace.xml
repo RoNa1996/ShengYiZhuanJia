@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7036d81f-a852-4b13-9d00-d6d901ca2490" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/view/login/img/logoin_title.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/view/login/img/logoin_title.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/view/login/login.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/view/login/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/view/login/login.controller.js" afterPath="$PROJECT_DIR$/www/view/login/login.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/view/login/login.html" afterPath="$PROJECT_DIR$/www/view/login/login.html" />
     </list>
     <ignored path="ShengYiZhuanJia.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,8 +79,8 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/view/login/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+            <state relative-caret-position="456">
+              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -93,9 +89,11 @@
       <file leaf-file-name="login.controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/view/login/login.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="475">
+              <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#49#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,6 +156,7 @@
         <option value="$PROJECT_DIR$/www/js/main.controller.js" />
         <option value="$PROJECT_DIR$/www/view/forgotpassword/forgotpassword.html" />
         <option value="$PROJECT_DIR$/www/js/app.js" />
+        <option value="$PROJECT_DIR$/www/view/login/login.controller.js" />
         <option value="$PROJECT_DIR$/www/view/login/login.html" />
       </list>
     </option>
@@ -486,6 +485,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7036d81f-a852-4b13-9d00-d6d901ca2490" name="Default" comment="" />
@@ -493,12 +495,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505809539839</updated>
-      <workItem from="1505809542498" duration="2461000" />
+      <workItem from="1505809542498" duration="3255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2461000" />
+    <option name="totallyTimeSpent" value="3255000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="870" y="45" width="1049" height="1052" extended-state="0" />
@@ -661,14 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/view/login/login.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
@@ -677,10 +671,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/view/login/login.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/view/login/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+        <state relative-caret-position="456">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
           <folding />
         </state>
       </provider>
