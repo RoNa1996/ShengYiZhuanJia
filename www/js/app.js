@@ -37,6 +37,12 @@ angular.module('starter', ['ionic', 'starter.controllers','starter.services'])
       templateUrl: 'view/welcome/welcome.html',
     })
 
+    .state('forgotpassword', {
+      url: '/forgotpassword',
+      templateUrl: 'view/forgotpassword/forgotpassword.html',
+    })
+
+
     .state('main', {
       url: '/',
       controller: 'MainCtel'
