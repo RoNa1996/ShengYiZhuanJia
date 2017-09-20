@@ -1,6 +1,7 @@
 /**
  * Created by Administrator on 2017/9/19.
  */
+
 var app = LocalStorageService.get('App',{verson:'1.0.0',run:false});
 if(app.run===false){
   app.run=true;
@@ -9,4 +10,5 @@ if(app.run===false){
 }
 else {
   $state.go('app.playlists');
-}
+};
+
