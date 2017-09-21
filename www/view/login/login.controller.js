@@ -1,28 +1,40 @@
 /**
  * Created by Administrator on 2017/9/18.
  */
-angular.module('starter.controllers')
-.controller('LoginCtrl',['$scope','$state','$ionicPopup',
-function ($scope,$state,$ionicPopup) {
-  $scope.loginData={
-    username:'admin'
-    ,password:'123456'
-  };
+(function () {
+  'use strict';
+  angular.module('starter.controllers')
+    .controller('LoginCtrl',['$scope','$state','$ionicPopup','localStorageService',
+      function ($scope,$state,$ionicPopup,localStorageService) {
+        var  USER_KEY='User';
+        $scope.user = {
+          username: ''
+          , password: ''
+        };
+        $scope.login = function () {
+          var account = localStorageService.get(USER_KEY, {
+            username: 'admin',
+            password: '123456'
+          });
 
-  $scope.login=function () {
-    if($scope.loginData.username=='admin'&&
-      $scope.loginData.password=='123456'){
-      $state.go("app.playlists",{});
-    }
-    else {
-      $ionicPopup.alert({
-        title:'警告',
-        template:'您的用户名或者密码错误',
-        okText:'确定',
-        okType:'button-energized'
-      });
-    }
-  };
-}]);
+          if (account.username === $scope.user.username && account.password === $scope.user.password) {
+            account.isLogin = true;
+            localStorageService.update(USER_KEY, account);
+            $state.go('welcome');
+          }
+          else {
+            $ionicPopup.alert({
+              title: '警告',
+              template: '您的用户名或者密码错误',
+              okText: '确定',
+              okType: 'button-energized'
+            });
+          }
+        };
+      }]);
+})();
+
+
+
 
 

@@ -40,6 +40,7 @@ angular.module('starter', ['ionic', 'starter.controllers','starter.services'])
     .state('login', {
       url: '/login',
       templateUrl: 'view/login/login.html',
+      controller:'LoginCtrl'
     })
 
     .state('forgotpassword', {
@@ -50,7 +51,7 @@ angular.module('starter', ['ionic', 'starter.controllers','starter.services'])
 
     .state('main', {
       url: '/',
-      controller: 'MainCtel'
+      controller: 'MainCtrl'
     })
 
 
@@ -62,6 +63,8 @@ angular.module('starter', ['ionic', 'starter.controllers','starter.services'])
       }
     }
   })
+
+
 
   .state('app.browse', {
       url: '/browse',
@@ -90,6 +93,7 @@ angular.module('starter', ['ionic', 'starter.controllers','starter.services'])
       }
     }
   });
+  $urlRouterProvider.otherwise('/');
   // if none of the above states are matched, use this as the fallback
- // $urlRouterProvider.otherwise('/app/playlists');
+  //$urlRouterProvider.otherwise('/app/playlists');
 });
