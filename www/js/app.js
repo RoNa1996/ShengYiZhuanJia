@@ -37,6 +37,8 @@ angular.module('starter', ['ionic', 'starter.controllers','starter.services'])
       templateUrl: 'view/welcome/welcome.html',
     })
 
+
+
     .state('login', {
       url: '/login',
       templateUrl: 'view/login/login.html',
@@ -74,6 +76,7 @@ angular.module('starter', ['ionic', 'starter.controllers','starter.services'])
         }
       }
     })
+
     .state('app.playlists', {
       url: '/playlists',
       views: {
@@ -82,6 +85,16 @@ angular.module('starter', ['ionic', 'starter.controllers','starter.services'])
           controller: 'PlaylistsCtrl'
         }
       }
+    })
+
+    .state('app.home', {
+      url: '/home',
+      views: {
+        'menuContent': {
+          templateUrl: 'view/home/home.html',
+        }
+      }
+
     })
 
   .state('app.single', {
