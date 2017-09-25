@@ -7,6 +7,9 @@
   border-left: none;
 }
 
+.side-background{
+  background-color: rgb(78,78,78);
+}
 .menu-side li i{
   font-size:medium!important;
 }

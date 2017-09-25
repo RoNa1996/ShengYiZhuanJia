@@ -13,16 +13,16 @@
   </ion-side-menu-content>
 
   <ion-side-menu side="left">
-    <ion-header-bar class="bar-stable">
+   <!-- <ion-header-bar class="bar-stable">
       <h1 class="title">Left</h1>
-    </ion-header-bar>
-    <ion-content>
+    </ion-header-bar>   -->
+    <ion-content class="side-background">
 
       <!--8.2.2-->
       <div class="row row-center row-no-padding padding-left padding-right">
         <div class="col col-66">
-          <h4 class="light">{{shopData.name}}</h4>
-          <h6 class="stable">{{shopData.phone}}</h6>
+          <h4 class="light">张泽荣</h4>
+          <h6 class="stable">18605919629</h6>
         </div>
         <div class="col col-34 text-right">
           <span class="energized-bg light">&nbsp;高级版&nbsp;</span>
@@ -34,16 +34,11 @@
           <i class="icon ion-ios-arrow-right"></i>
         </li>
       </ul>
-      <div class="bar bar-footer bar-dark">
-        <a class="button button-clear
-        icon-left ion-ios-settings light"style="margin-top:12px;"menu-close>
-          &nbsp;&nbsp;设置
-          </a>
-      </div>
+
 
 
       <!--8.2.2-->
-
+<!--
       <ion-list>
         <ion-item menu-close ng-click="login()">
           Login
@@ -57,7 +52,7 @@
         <ion-item menu-close href="#/app/playlists">
           Playlists
         </ion-item>
-      </ion-list>
+      </ion-list> -->
     </ion-content>
   </ion-side-menu>
 
@@ -65,6 +60,11 @@
 
   <!--8.2.3-->
 
-
+  <div class="bar bar-footer bar-dark">
+    <a class="button button-clear
+        icon-left ion-ios-settings light"style="margin-top:-72.78896px;"menu-close>
+      &nbsp;&nbsp;设置
+    </a>
+  </div>
 
 </ion-side-menus>
