@@ -5,7 +5,7 @@
     $scope.property=$stateParams.property;
     $scope.shop=localStorageService.get('Shop',{
       phone:'18605919629',
-      createtime:'2017-9-27 17:18:23',
+      createTime:'2017-9-27 17:18:23',
       name:'',
       ab:'',
       boss:'',
