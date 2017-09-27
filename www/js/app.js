@@ -87,6 +87,27 @@ angular.module('starter', ['ionic', 'starter.controllers','starter.services'])
       }
     })
 
+    .state('app.category-add', {
+      url: '/category-add/:od/:name',
+      views: {
+        'menuContent': {
+          templateUrl: 'view/category/category-add.html',
+          controller: 'CategoryAddCtrl'
+        }
+      }
+    })
+
+    .state('app.category-list', {
+      url: '/category-list',
+      views: {
+        'menuContent': {
+          templateUrl: 'view/category/category-list.html',
+          controller: 'CategoryListCtrl'
+        }
+      }
+    })
+
+
     .state('app.home', {
       url: '/home',
       views: {

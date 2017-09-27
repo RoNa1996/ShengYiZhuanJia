@@ -16,6 +16,9 @@
           }
         ]
       };
+     
+      
+      
       $scope.$on('$ionicView.enter',function () {
         $scope.category.ID=$stateParams.id;
         $scope.category.Name=$stateParams.name;
