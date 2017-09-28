@@ -56,16 +56,25 @@ angular.module('starter', ['ionic', 'starter.controllers','starter.services'])
       controller: 'MainCtrl'
     })
 
-    .state('app.change-password', {
-      url: '/change-password',
+    .state('app.changepassword', {
+      url: '/changepassword',
       views: {
         'menuContent': {
           templateUrl: 'view/changepassword/changepassword.html',
-          conroller:'ChangeasswordCtrl'
+          conroller:'ChangePasswordCtrl'
         }
       }
     })
 
+    .state('app.about', {
+      url: '/about',
+      views: {
+        'menuContent': {
+          templateUrl: 'view/about/about.html',
+
+        }
+      }
+    })
 
 
     .state('app.search', {
