@@ -56,6 +56,17 @@ angular.module('starter', ['ionic', 'starter.controllers','starter.services'])
       controller: 'MainCtrl'
     })
 
+    .state('app.change-password', {
+      url: '/change-password',
+      views: {
+        'menuContent': {
+          templateUrl: 'view/changepassword/changepassword.html',
+          conroller:'ChangeasswordCtrl'
+        }
+      }
+    })
+
+
 
     .state('app.search', {
     url: '/search',
@@ -65,6 +76,15 @@ angular.module('starter', ['ionic', 'starter.controllers','starter.services'])
       }
     }
   })
+    .state('app.setting', {
+      url: '/setting',
+      views: {
+        'menuContent': {
+          templateUrl: 'view/setting/setting.html',
+          controller:'SettingCtrl'
+        }
+      }
+    })
 
     .state('app.shop', {
       url: '/shop',
