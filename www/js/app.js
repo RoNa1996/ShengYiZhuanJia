@@ -66,6 +66,26 @@ angular.module('starter', ['ionic', 'starter.controllers','starter.services'])
     }
   })
 
+    .state('app.shop', {
+      url: '/shop',
+      views: {
+        'menuContent': {
+          templateUrl: 'view/shop/shop.html',
+          controller:'ShopCtrl'
+        }
+      }
+    })
+
+    .state('app.shop-edit', {
+      url: '/shop-edit',
+      params:{title:'',property:''},
+      views: {
+        'menuContent': {
+          templateUrl: 'view/shop/shop-edit.html',
+          controller:'ShopEditCtrl'
+        }
+      }
+    })
 
 
   .state('app.browse', {
