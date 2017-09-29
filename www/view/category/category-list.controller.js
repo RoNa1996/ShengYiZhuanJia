@@ -3,7 +3,7 @@
  */
 (function () {
   'use strict';
-  angular.module('starter.controllers').controller('CategoryListCtrl',['$ionicHistory','$scope','$ionicActionSheet',function ($ionicHistory,$scope,$ionicActionSheet) {
+  angular.module('starter.controllers').controller('CategoryListCtrl',['$ionicHistory','$scope','$ionicActionSheet','CategoryListCtrl',function ($ionicHistory,$scope,$ionicActionSheet,CategoryListCtrl) {
     $scope.categories=[
 
       {
@@ -140,6 +140,12 @@
     };
     $scope.gotoCategoryAdd=function () {
       location.href='#/app/category-add/' + $scope.activeCategory.ID + '/' + $scope.activeCategory.Name;
-    }
+    };
+    $scope.$watch('activeSubCategory',function (newValue,oldValue) {
+      if(newValue.ID){
+        CategoryService.updateCategory($scope.activeSubCategory);
+      }
+
+    })
   }]);
 })();

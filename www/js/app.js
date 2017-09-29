@@ -76,6 +76,17 @@ angular.module('starter', ['ionic', 'starter.controllers','starter.services'])
       }
     })
 
+    .state('app.product-add', {
+      url: '/product-add',
+      views: {
+        'menuContent': {
+          templateUrl: 'view/product/product-add.html',
+          conroller:'ProductAddCtrl'
+        }
+      }
+    })
+
+
 
     .state('app.search', {
     url: '/search',
