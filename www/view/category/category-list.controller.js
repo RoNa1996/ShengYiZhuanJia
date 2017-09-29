@@ -3,7 +3,7 @@
  */
 (function () {
   'use strict';
-  angular.module('starter.controllers').controller('CategoryListCtrl',['$ionicHistory','$scope','$ionicActionSheet','CategoryListCtrl',function ($ionicHistory,$scope,$ionicActionSheet,CategoryListCtrl) {
+  angular.module('starter.controllers').controller('CategoryListCtrl',['$ionicHistory','$scope','$ionicActionSheet','CategoryService',function ($ionicHistory,$scope,$ionicActionSheet,CategoryService) {
     $scope.categories=[
 
       {
@@ -96,6 +96,7 @@
 
     ];
     $scope.activeCategory={};
+    $scope.activeSubCategory ={};
     if($scope.categories.length>0){
       $scope.activeCategory=$scope.categories[0];
     }
@@ -107,7 +108,6 @@
     };
 
     $scope.selectSubCategory=function (data) {
-      console.log(data);
       $scope.activeSubCategory=data;
       $ionicHistory.goBack();
     };
@@ -142,10 +142,12 @@
       location.href='#/app/category-add/' + $scope.activeCategory.ID + '/' + $scope.activeCategory.Name;
     };
     $scope.$watch('activeSubCategory',function (newValue,oldValue) {
+
       if(newValue.ID){
+
         CategoryService.updateCategory($scope.activeSubCategory);
       }
 
-    })
+    });
   }]);
 })();

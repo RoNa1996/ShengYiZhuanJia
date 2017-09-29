@@ -11,11 +11,10 @@
       }
     };
     $scope.$on('CategoryUpdate',function (event,data) {
-      console.log(data);
       $scope.product.CategoryID =CategoryService.activeCategory.ID;
       $scope.product.Category.ID=CategoryService.activeCategory.ID;
       $scope.product.Category.Name=CategoryService.activeCategory.Name;
-
+      //console.log($scope.product);
     });
 
 

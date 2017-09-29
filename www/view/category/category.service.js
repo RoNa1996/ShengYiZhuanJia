@@ -9,8 +9,9 @@
       };
       service.updateCategory=function (value) {
         service.activeCategory = angular.copy(value);
-        $rootScope.$broadcast('CategoryUpdate',service.activeCategory);
+        $rootScope.$broadcast('CategoryUpdate');
+        //$rootScope.$broadcast('CategoryUpdate',service.activeCategory);
       };
       return service;
     }])
-})
+})();

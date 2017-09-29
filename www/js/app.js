@@ -81,7 +81,7 @@ angular.module('starter', ['ionic', 'starter.controllers','starter.services'])
       views: {
         'menuContent': {
           templateUrl: 'view/product/product-add.html',
-          conroller:'ProductAddCtrl'
+          controller:'ProductAddCtrl'
         }
       }
     })
