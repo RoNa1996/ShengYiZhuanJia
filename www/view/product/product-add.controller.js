@@ -17,6 +17,12 @@
       //console.log($scope.product);
     });
 
+    $scope.scanBarcode=function () {
+      $cordovaBarcodeScanner.scan().then(function (barcodeData) {
+        $scope.productData.
+      })
+    }
+
 
   }]);
 })();
