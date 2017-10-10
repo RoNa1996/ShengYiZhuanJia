@@ -8,6 +8,17 @@
   </ion-header-bar>
 
   <ion-content class="has-subheader">
+    <div class="row row-center" style="justify-content: space-between;">
+      总共库存{{'10'}}件,总成本{{'350.00'}}元
+      <div class="buttons">
+        <button class="button button-small button-clear">
+          <i class="icon ion-ios-bell energized"></i>
+        </button>
+        <button class="button button-small button-clear" ui-sref="app.product-add">
+          <i class="icon ion-plus energized"></i>
+        </button>
+      </div>
+    </div>
     <ul class="list" ng-if="products.length > 0 ">
       <li class="item item-thumbnail-left item-icon-right" ng-repeat="item in products">
         <img ng-src="{{item.Images[0]}}" ng-if="item.Images.length > 0">
