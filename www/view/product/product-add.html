@@ -2,9 +2,10 @@
   <ion-content class="has-footer">
     <div class="list">
 
-      <div class="item item-thumbnail-left item-icon-right stable-bg">
-        <img src="view/product/img/supplier_icon.png">
-        <i class="icon" ng-click="showActionSheet()"><h6>上传照片</h6></i>
+      <div class="item item-thumbnail-left item-icon-right stable-bg"  >
+        <img class="product-image" src="view/product/img/supplier_icon.png" alt="" ng-click="showActionSheet()" ng-if="product.Images.length < 3">
+        <img class="product-image" alt="" ng-repeat="image in product.Images" ng-src="{{image}}">
+        <i class="icon" ><h6>上传照片</h6></i>
       </div>
       <div class="item item-input item-icon-right">
         <label style="display:flex; width: 100%;padding-top:2px;padding-bottom: 2px;">
@@ -35,10 +36,23 @@
       </label>
       <label class="item item-input" for="">
         <span class="input-label">库存<span class="energized">*</span></span>
+        <input type="text" placeholder="输入商品库存">
         <input type="text">
       </label>
       <label class="item item-input" for="">
         <span class="input-label">规格<span class="energized">*</span></span>
+        <input type="text" placeholder="规格 型号 尺码">
+        <input type="text">
+      </label>
+      <label class="item item-input" for="">
+        <span class="input-label">备注<span class="energized">*</span></span>
+        <input type="text" placeholder="输入商品备注">
+        <input type="text">
+      </label>
+      <label class="item item-input item-icon-right" ng-click="selectSupplier()" for="">
+        <span class="input-label">供应商<span class="energized">*</span> </span>
+        <span class="item-note">{{product.Supplier.Name}}</span>
+        <i class="icon icon-chevron-right icon-accessory"></i>
         <input type="text">
       </label>
 
