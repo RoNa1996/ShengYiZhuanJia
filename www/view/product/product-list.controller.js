@@ -150,12 +150,14 @@
                   ,Barcode: 'liuzhiyongSB'
                 }
                 ,];
-            $scope.products = $scope.products.concat(list);
-            $scope.sourceProducts=angular.copy($scope,product);
+            $scope.products =list;
+            isLoading =false;
+           /*$scope.products = $scope.products.concat(list);
+            $scope.sourceProducts=angular.copy($scope,product);*/
             $scope.$broadcast('scroll.refreshComplete');
             $scope.$broadcast('scroll.infiniteScrollComplete');
             $ionicLoading.hide();
-            }
+            },2000
 
           )
 

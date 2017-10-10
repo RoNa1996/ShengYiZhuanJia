@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7036d81f-a852-4b13-9d00-d6d901ca2490" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/view/product/product-list.controller.js" afterPath="$PROJECT_DIR$/www/view/product/product-list.controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/view/product/product-list.html" afterPath="$PROJECT_DIR$/www/view/product/product-list.html" />
     </list>
@@ -27,8 +28,8 @@
       <file leaf-file-name="product-list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/view/product/product-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            <state relative-caret-position="304">
+              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
               </folding>
@@ -39,8 +40,8 @@
       <file leaf-file-name="product-list.controller.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/view/product/product-list.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="98" column="32" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
+            <state relative-caret-position="724">
+              <caret line="157" column="63" selection-start-line="157" selection-start-column="63" selection-end-line="157" selection-end-column="63" />
               <folding>
                 <element signature="e#0#50#0" expanded="false" />
                 <element signature="e#2893#3120#0" expanded="false" />
@@ -48,6 +49,8 @@
                 <element signature="e#3397#3638#0" expanded="false" />
                 <element signature="e#3887#4092#0" expanded="false" />
                 <element signature="e#4111#4317#0" expanded="false" />
+                <marker date="1507626632149" expanded="true" signature="4413:4414" ph="..." />
+                <marker date="1507626632149" expanded="true" signature="4416:4682" ph="..." />
               </folding>
             </state>
           </provider>
@@ -142,8 +145,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="915" />
-    <option name="y" value="1" />
+    <option name="x" value="758" />
+    <option name="y" value="11" />
     <option name="width" value="1362" />
     <option name="height" value="1080" />
   </component>
@@ -528,15 +531,15 @@
       <workItem from="1506758646834" duration="1606000" />
       <workItem from="1507536427437" duration="38000" />
       <workItem from="1507536498650" duration="3564000" />
-      <workItem from="1507619545990" duration="6515000" />
+      <workItem from="1507619545990" duration="7063000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51316000" />
+    <option name="totallyTimeSpent" value="51864000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="915" y="1" width="1362" height="1080" extended-state="0" />
+    <frame x="758" y="11" width="1362" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -953,8 +956,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/view/product/product-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        <state relative-caret-position="304">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
           <folding>
             <element signature="n#style#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
           </folding>
@@ -963,8 +966,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/view/product/product-list.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="98" column="32" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
+        <state relative-caret-position="724">
+          <caret line="157" column="63" selection-start-line="157" selection-start-column="63" selection-end-line="157" selection-end-column="63" />
           <folding>
             <element signature="e#0#50#0" expanded="false" />
             <element signature="e#2893#3120#0" expanded="false" />
@@ -972,6 +975,8 @@
             <element signature="e#3397#3638#0" expanded="false" />
             <element signature="e#3887#4092#0" expanded="false" />
             <element signature="e#4111#4317#0" expanded="false" />
+            <marker date="1507626632149" expanded="true" signature="4413:4414" ph="..." />
+            <marker date="1507626632149" expanded="true" signature="4416:4682" ph="..." />
           </folding>
         </state>
       </provider>
