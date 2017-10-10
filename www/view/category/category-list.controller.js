@@ -4,6 +4,15 @@
 (function () {
   'use strict';
   angular.module('starter.controllers').controller('CategoryListCtrl',['$ionicHistory','$scope','$ionicActionSheet','CategoryService',function ($ionicHistory,$scope,$ionicActionSheet,CategoryService) {
+    $scope.showInfo='无小分类进入大分类';
+    $scope.$on('$stateChangeSuccess',function (event,toState,toParams,fromState,fromParams) {
+      console.log(event,toState,toParams,fromState,fromParams);
+      if (fromState == 'app.product-list'){
+        $scope.showInfo ='无小分类进入大分类';
+      }
+
+    })
+
     $scope.categories=[
 
       {
