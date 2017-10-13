@@ -31,48 +31,48 @@
                 ,Images: ['view/product/img/iPhone7.png']
                 ,Name:'iphone7'
                 ,Price:'￥5388'
-                ,Store: 12
-                ,Barcode: 'liuzhiyongSB'
+                ,Store: '12'
+                ,Barcode: '1212121212 '
               }
               , {
                 ID:2
                 ,Images: ['view/product/img/SONY.png']
                 ,Name:'SONY XZP'
                 ,Price:'￥4500'
-                ,Store: 12
-                ,Barcode: 'liuzhiyongSB'
+                ,Store: 9
+                ,Barcode: '1212121212'
               }
               , {
                 ID:3
                 ,Images: ['view/product/img/U11.png']
                 ,Name:'HTC U11'
                 ,Price:'￥5388.599'
-                ,Store: 12
-                ,Barcode: 'liuzhiyongSB'
+                ,Store: 4
+                ,Barcode: '1212121212'
               }
               , {
                 ID:4
                 ,Images: []
                 ,Name:'小米 MIX2'
                 ,Price:'￥3288'
-                ,Store: 12
-                ,Barcode: 'liuzhiyongSB'
+                ,Store: 52
+                ,Barcode: '1212121212'
               }
               , {
                 ID:5
                 ,Images: []
                 ,Name:'冲击钻'
                 ,Price:'￥88'
-                ,Store: 12
-                ,Barcode: 'liuzhiyongSB'
+                ,Store: 87
+                ,Barcode: '1212121212'
               }
               , {
                 ID:6
                 ,Images: []
                 ,Name:'￥纯悦矿泉水'
                 ,Price:'1'
-                ,Store: 12
-                ,Barcode: 'liuzhiyongSB'
+                ,Store: 83
+                ,Barcode: '1212121212'
               }
               ,
             ];
@@ -107,31 +107,31 @@
                 ,Name:'iphone7'
                 ,Price:'￥5388'
                 ,Store: 12
-                ,Barcode: 'liuzhiyongSB'
+                ,Barcode: '1212121212'
               }
                 , {
                   ID:2
                   ,Images: ['view/product/img/SONY.png']
                   ,Name:'SONY XZP'
                   ,Price:'￥4500'
-                  ,Store: 12
-                  ,Barcode: 'liuzhiyongSB'
+                  ,Store: 1
+                  ,Barcode: '1212121212'
                 }
                 , {
                   ID:3
                   ,Images: ['view/product/img/U11.png']
                   ,Name:'HTC U11'
                   ,Price:'￥5388.599'
-                  ,Store: 12
-                  ,Barcode: 'liuzhiyongSB'
+                  ,Store: 3
+                  ,Barcode: '1212121212'
                 }
                 , {
                   ID:4
                   ,Images: []
                   ,Name:'小米 MIX2'
                   ,Price:'￥3288'
-                  ,Store: 12
-                  ,Barcode: 'liuzhiyongSB'
+                  ,Store: 4
+                  ,Barcode: '1212121212'
                 }
                 , {
                   ID:5
@@ -139,7 +139,7 @@
                   ,Name:'冲击钻'
                   ,Price:'￥88'
                   ,Store: 12
-                  ,Barcode: 'liuzhiyongSB'
+                  ,Barcode: '1212121212'
                 }
                 , {
                   ID:6
@@ -147,7 +147,7 @@
                   ,Name:'￥纯悦矿泉水'
                   ,Price:'1'
                   ,Store: 12
-                  ,Barcode: 'liuzhiyongSB'
+                  ,Barcode: '1212121212'
                 }
                 ,];
             $scope.products =list;

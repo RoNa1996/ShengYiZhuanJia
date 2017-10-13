@@ -1,5 +1,6 @@
 <ion-view view-title="商品管理">
-  <ion-header-bar class="bar-subheader item-input-inset bar-stable">
+
+  <ion-header-bar class="bar-subheader item-input-inset bar-stable  has-footer">
     <label class="item-input-wrapper light-bg">
       <i class="icon ion-ios-search placeholder-icon"></i>
       <input type="search" placeholder="请输入商品名称查询"
@@ -27,7 +28,7 @@
         <img src="view/product/img/c_goodspicture.png" ng-if="item.Images.length == 0">
         <h2>{{item.Name}}</h2>
         <p ><span class="energized">{{item.Price}}</span> </p>
-        <p>条形码:<span>{{item.Barcode}}</span>&nbsp;&nbsp;库存: <span>{{item.Stock}}</span></p>
+        <p>条形码:<span>{{item.Barcode}}</span>&nbsp;&nbsp;库存: <span>{{item.Store}}</span></p>
         <i class="icon ion-ios-arrow-thin-right"></i>
       </li>
     </ul>

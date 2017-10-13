@@ -5,3 +5,4 @@ angular.module('starter.directives', ['ngResource'])
 /**
  * Created by Administrator on 2017/9/13.
  */
+angular.module('syzj.directives',[]);
