@@ -1,24 +1,19 @@
+
 (function () {
   'use strict';
   angular.module('starter.controllers').controller('ChangePasswordCtrl',['$scope','popupService',function ($scope,popupService) {
-    $scope.user = {
+    $scope.user={
       oldPassword:'',
       password:'',
       confirmPassword:''
     };
-    $scope.save = function (valid) {
-      if($scope.changePasswordForm.oldPassword.$error.required){
-        popupService.toast('jiumimabitian');
-        return;
-      }
-
+    
+    $scope.save=function () {
       console.log($scope.changePasswordForm.$valid);
       if($scope.changePasswordForm.$valid){
         console.log('save');
-        popupService.toast('dsflsdflsfldl');
+        popupService.toast('修改成功');
       }
-
-
     };
   }]);
 })();

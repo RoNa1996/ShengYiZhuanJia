@@ -7,7 +7,7 @@ angular.module('syzj.directives')
     restrict:'A',
     require:'ngModel',
     link:function (scope,element,attrs,ngModelCtrl) {
-      function  equalTo(viewValue) {
+
         function  equalTo(viewValue) {
           var  valid = (viewValue===scope.$eval(attrs.equalto));
           ngModelCtrl.$setValidity('equalto',valid);
@@ -16,9 +16,9 @@ angular.module('syzj.directives')
         };
         ngModelCtrl.$parsers.unshift(equalTo);
 
-      }
+
 
     }
-  }
+  };
 
-}])
+}]);

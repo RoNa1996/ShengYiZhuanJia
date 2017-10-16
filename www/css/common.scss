@@ -1,20 +1,19 @@
 .toast-container{
-  position: fixed;
+  position: fixed;;
   bottom: 50px;
-  width:50px;
+  width: 100%;
   opacity: 0;
   -webkit-transition: opacity 0.8s;
   transition: opacity 0.8s;
-  z-index:  10;
+  z-index: 10;
   &.active{
     opacity: 1;
   }
 }
-
 .toast-message{
-  width:  270px;
-  margin:  5px auto;
-  padding:  5px;
+  width: 270px;
+  margin: 5px auto;
+  padding: 5px;
   background-color: $dark;
   text-align: center;
   color: $light;
