@@ -58,7 +58,9 @@
 
     </div>
   </ion-content>
-
+<div class="toast-container" ng-messages="productForm.price.$error">
+  <div class="toast-message" ng-message="pattern">货币格式不正确</div>
+</div>
 
 <div class="bar bar-footer bar-energized">
 <div class="button-bar">
